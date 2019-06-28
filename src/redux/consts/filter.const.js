@@ -1,0 +1,8 @@
+const FilterConst = {
+  TEAM_FILTER: "TEAM_FILTER",
+  SPRINT_FILTER: "SPRINT_FILTER",
+  IS_TEAM_CHECKED: "IS_TEAM_CHECKED",
+  IS_SPRINT_CHECKED: "IS_SPRINT_CHECKED"
+};
+
+export default FilterConst;

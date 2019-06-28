@@ -1,0 +1,10 @@
+image: node:8.11.3
+
+cache:
+  paths:
+    - node_modules/
+
+all_tests:
+  script:
+    - npm install
+    - bash ./.gitlab-deploy.prod.sh
